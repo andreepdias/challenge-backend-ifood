@@ -8,7 +8,7 @@ Encontrado em: https://github.com/CollabCodeTech/backend-challenges
 
 ### Resumo
 
-O desafio consiste em criar uma API capaz  de se **comunicar com uma API externa** (OpenWeatherAPI) e retornar os dados climáticos de uma cidade a partir do seu nome. Além disso, deve se **utilizar de cache** para tornar o serviço mais rápido. Também precisa implementar **controle de falhas** para casos onde API externa não funcione corretamente.
+O desafio consiste em criar uma API capaz  de se **comunicar com uma API externa** (OpenWeatherMapAPI) e retornar os dados climáticos de uma cidade a partir do seu nome. Além disso, deve se **utilizar de cache** para tornar o serviço mais rápido. Também precisa implementar **controle de falhas** para casos onde API externa não funcione corretamente.
 
 ### Solução
 
@@ -30,7 +30,7 @@ Existem três endpoints:
 
 `GET http://localhost:8080/cache`: retorna dados do gerenciador de cache (hits, misses, etc.).
 
-##### Cache
+#### Cache
 
 A biblioteca escolhida para atuar como cache foi a **Caffeine Cache**, por ser uma biblioteca com uma alta performance e compatível com o contexto de cache do Spring Boot (e pelo nome :coffee:).
 
