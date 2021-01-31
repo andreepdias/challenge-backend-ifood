@@ -24,9 +24,9 @@ Pode ser executada por:
 
 Existem três endpoints:
 
-`GET http://localhost:8080/weather/?city=joinville`: retorna os dados climáticos da cidade (troque 'joinville' por uma cidade);
+`GET http://localhost:8080/weather/?city=joinville`: retorna os dados climáticos da cidade (troque 'joinville' por outra cidade);
 
-`GET http://localhost:8080/weather/fake/?city=joinville`: imita uma falha na requisição (com uma URL inexistente) para ativar o CircuitBreaker do control de falhas;
+`GET http://localhost:8080/weather/fake/?city=joinville`: imita uma falha na requisição (com uma URL inexistente) para ativar o CircuitBreaker do controle de falhas;
 
 `GET http://localhost:8080/cache`: retorna dados do gerenciador de cache (hits, misses, etc.).
 
